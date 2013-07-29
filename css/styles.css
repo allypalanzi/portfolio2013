@@ -1,5 +1,6 @@
 /*
-Hi snoop. I'm Ally Palanzi. Hope you enjoy my codes.
+
+@mylifeasalllly
 
 */
 /* #Reset
@@ -61,7 +62,7 @@ body {
   -o-transition: all 1s ease-in-out;
   -ms-transition: all 1s ease-in-out;
   transition: all 1s ease-in-out;
-  background-image: url("../img/bg.png");
+  background: url("../img/bg.png") fixed;
   font-family: 'Arvo',serif;
   font-size: 15px; }
 
@@ -293,7 +294,7 @@ p a:hover {
   -moz-border-radius: 150px;
   background: url(../img/ally.jpg) no-repeat;
   background-size: 100%;
-  border: 5px solid white;
+  border: 5px solid #fff;
   margin-left: 25%;
   animation: fadein 0.5s;
   -moz-animation: fadein 0.5s;
@@ -340,7 +341,7 @@ p a:hover {
     text-align: right;
     float: right;
     font-size: 30px;
-    font-family: "ArvilRegular", sans-serif; }
+    font-family: 'ArvilRegular', sans-serif; }
 
 input {
   width: 100%;
@@ -394,12 +395,7 @@ textarea {
   z-index: 99;
   text-align: center;
   background: #fff;
-  background: -moz-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0.8) 0%, white 100%);
-  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(255, 255, 255, 0.8)), color-stop(100%, white));
-  background: -webkit-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0.8) 0%, white 100%);
-  background: -o-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0.8) 0%, white 100%);
-  background: -ms-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0.8) 0%, white 100%);
-  background: radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0.8) 0%, white 100%); }
+  background: white; }
 
 .icon-overlay > div {
   animation: fadein 0.5s;
@@ -410,7 +406,7 @@ textarea {
   -o-animation: fadein 0.5s;
   /* Opera */
   position: relative;
-  color: rgba(27, 54, 81, 0.8);
+  color: rgba(27, 54, 81, 0.9);
   width: 100%;
   margin-bottom: 50px;
   max-width: 800px;
@@ -435,7 +431,7 @@ textarea {
   opacity: 0;
   filter: alpha(opacity=0);
   /* internet explorer */
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=0)";
+  -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(opacity=0)";
   /*IE8*/
   -webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3);
   -moz-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3);
@@ -449,7 +445,7 @@ textarea {
   opacity: 0;
   filter: alpha(opacity=0);
   /* internet explorer */
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=0)";
+  -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(opacity=0)";
   /*IE8*/
   -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
   -moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
@@ -469,7 +465,7 @@ textarea {
   opacity: 0.8;
   filter: alpha(opacity=80);
   /* internet explorer */
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=80)";
+  -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(opacity=80)";
   /*IE8*/ }
   @media (max-width: 590px) {
     .icon-prev, .icon-next {
@@ -479,7 +475,7 @@ textarea {
   opacity: 1;
   filter: alpha(opacity=99);
   /* internet explorer */
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=99)";
+  -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(opacity=99)";
   /*IE8*/ }
 
 .icon-prev {
